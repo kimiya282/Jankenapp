@@ -56,5 +56,4 @@ puts"相手：#{direction[enemy_direction]}"
      return janken
  end
 end
-return janken
-
+janken
