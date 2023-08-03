@@ -24,11 +24,11 @@ hako =["グー","チョキ","パー"]
     if my_hand == enemy_hand 
         puts "あいこで〜"
         janken
-    elsif (my_hand = 0 && enemy_hand = 1)||(my_hand = 1 && enemy_hand = 2)||(my_hand =2 && enemy_hand = 0)
+    elsif (my_hand == 0 && enemy_hand == 1)||(my_hand == 1 && enemy_hand == 2)||(my_hand ==2 && enemy_hand == 0)
     @J_hantei ="win"
         return acchimuite_hoi
         
-    elsif (my_hand = 1 && enemy_hand = 0)||(my_hand = 2 && enemy_hand = 1)||(my_hand =0 && enemy_hand = 2)
+    elsif (my_hand == 1 && enemy_hand == 0)||(my_hand == 2 && enemy_hand == 1)||(my_hand == 0 && enemy_hand == 2)
     @J_hantei ="lose"
         return acchimuite_hoi
     else
